@@ -1,0 +1,208 @@
+.jumbotron{
+    padding-top: 2rem;
+    background-color: #566573 ;
+    background-image: url(images/bgnew.jpg);
+    background-blend-mode: exclusion;
+    background-size: cover;
+    color: white;
+}
+*{
+    font-family: Montserrat;
+}
+#exp {
+    background-color:#bbbbbb ;
+}
+
+section {
+    padding-top: 5rem;
+}
+#header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.card {
+    border-radius: 5% ;
+    box-shadow: 1px 5px 8px rgb(102, 102, 102);
+}
+.card > img {
+    border-radius: 5% 5% 0 0;
+}
+
+.icon1 {
+    width: 50px;
+    height: 40px;
+}
+.icon2 {
+    width: 34px; 
+    height: 34px;
+}
+
+#exp-img{
+    height: 400px;
+}
+
+@media only screen and (max-width: 980px) { 
+
+    #exp-img{
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 880px) { 
+
+    #exp-img{
+        height: 450px;
+        
+    }
+    .card {
+        width: 500px;
+        
+    }
+
+    #about-img {
+        margin-bottom: 50px;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 879px) { 
+
+    #exp-img{
+        height: 280px;
+        
+    }
+    .card {
+        width: 230px;
+        
+    }
+
+    #about-img {
+        margin-bottom: 50px;
+        width: 370px;
+    }
+}
+
+@media only screen and (max-width: 698px) { 
+
+    #exp-img{
+        height: 400px;
+        
+    }
+    .card {
+        width: 400px;
+        align-items: center;
+        margin: 0px 46px;
+        
+    }
+    #about-img {
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 550px) { 
+
+    #exp-img{
+        height: 300px;
+        
+    }
+    .card {
+        width: 350px;
+        align-items: center;
+        margin: auto
+        
+    }
+    #about-img {
+        margin-bottom: 50px;
+    }
+}
+    @media only screen and (max-width: 430px) { 
+
+        #exp-img{
+            height: 300px;
+            
+        }
+        .card {
+            width: 350px;
+            align-items: center;
+            margin: auto;
+            
+        }
+        #about-img {
+            margin-bottom: 50px;
+        }
+}
+
+@media only screen and (max-width: 480px) { 
+
+        #exp-img{
+            height: 300px;
+            
+        }
+        .card {
+            width: 350px;
+            align-items: center;
+            margin: auto;
+            
+        }
+        #about-img {
+            margin-bottom: 50px;
+        }
+
+        .jumbotron > h1 {
+            font-size: 20px;
+        }
+        .jumbotron > p {
+            font-size: 15px;
+        }
+        .icon1 {
+            width: 40px;
+            height: 30px;
+        }
+        
+        .icon2 {
+            width: 26px; 
+            height: 26px; 
+        }
+
+        .icons3 {
+            width: 18px;
+        }
+
+        .jumbotron > img {
+            width: 200px;
+            margin-bottom: 32px;
+        }
+
+        .navbar-brand {
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+        h2{
+            font-size: 20px;
+        }
+        #about-img {
+            width: 300px;
+            margin-top: 30px;
+            box-shadow: 1px 5px 8px rgb(102, 102, 102);
+        }
+
+        #about-parag {
+            font-size: 12px;
+            padding: 0px 32px;
+        }
+
+        .card {
+            border-radius: 5% ;
+            box-shadow: 1px 5px 8px rgb(102, 102, 102);
+        }
+        .card > img {
+            border-radius: 5% 5% 0 0;
+        }
+
+        #contact .container {
+            padding: 0 64px;
+        }
+}
+
